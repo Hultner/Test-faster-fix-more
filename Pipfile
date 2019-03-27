@@ -12,6 +12,9 @@ black = "*"
 bpython = "*"
 # jsondate = "*"
 jupyterlab = "*"
+hypothesis = "*"
+pytest = "*"
+pytest-cov = "*"
 
 [dev-packages]
 
