@@ -18,8 +18,8 @@ In this talk I will focus on a wonderful Python library called Hypothesis but th
 
 - [Video Recording (comming soon)](https://www.youtube.com/channel/UCQvR8lgE9rishcKT_hZT6eQ/videos)
 - [Slides](https://slides.com/hultner/foss-north-2019/fullscreen#/)
-- [Jupyter Lab Notebook](Foss-North-2019/demo.ipynb)
-- [Snippets](Foss-North-2019/snippets.ipynb)
+- [Jupyter Lab Notebook](https://github.com/Hultner/Test-faster-fix-more/blob/master/Foss-North-2019/demo.ipynb)
+- [Snippets](https://github.com/Hultner/Test-faster-fix-more/blob/master/Foss-North-2019/snippets.ipynb)
 
 ## ⠠⠵ Property based testsing/Hypothesis FAQ
 **What's the requirements for using Hypothesis?**   
