@@ -11,12 +11,12 @@
 *Property based testing in Python using Hypothesis.*
 
 ## ⠠⠵ foss-north, April 8-9, 2019 (Gothenburg)
-[**Test Fast, Fix More – Property based in Python testing with Hypothesis** (youtube video comming soon)](https://www.youtube.com/channel/UCQvR8lgE9rishcKT_hZT6eQ/videos)  
+[**Test Fast, Fix More – Property based in Python testing with Hypothesis** (youtube video )](https://www.youtube.com/watch?v=qKHB0Xr-Yjg)  
 Did you ever miss that corner case bug? Maybe it was a negative integer, strange timezone conversion behaviour, off by one error or something entirely else. These subtle bugs are often hard to catch and are easily missed in test cases. You like me have probably ran into plenty of code utilising only happy path testing, only to later discover subtle bugs which are easily fixed once pointed out. This is where property based testing comes into the picture. 
 
 In this talk I will focus on a wonderful Python library called Hypothesis but the concepts apply to other languages as well. Hypethesis is based on the same concept as the famous QuickCheck library for Haskell, which in turn have been ported a large number of languages. Hypothesis uses a wide range of input to find edge cases that you could otherwise easily miss, once it finds these cases it narrows down the input to the minimal breaking example to provide failures which are easier to understand.
 
-- [Video Recording (comming soon)](https://www.youtube.com/channel/UCQvR8lgE9rishcKT_hZT6eQ/videos)
+- [Video](https://www.youtube.com/watch?v=qKHB0Xr-Yjg)
 - [Slides](https://slides.com/hultner/foss-north-2019/fullscreen#/)
 - [Jupyter Lab Notebook](https://github.com/Hultner/Test-faster-fix-more/blob/master/Foss-North-2019/demo.ipynb)
 - [Snippets](https://github.com/Hultner/Test-faster-fix-more/blob/master/Foss-North-2019/snippets.ipynb)
