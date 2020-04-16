@@ -11,6 +11,24 @@
 *Property based testing in Python using Hypothesis.*
 
 
+## ⠠⠵ Quick Reference
+```python
+# Minimal usage example
+@given(
+    st.integers(), 
+    st.integers()
+)
+def test_ints_are_commutative(x, y):
+    assert x + y == y + x
+	
+# Define special edge cases with @example, 
+# especially useful for regression testing
+@given(st.integers(), st.integers())
+@example(-1, 1)
+def test_add(a, b):
+    assert add(a, b) == a + b
+```
+
 ## ⠠⠵ PyCon Sweden, Oct 31 - Nov 1, 2019 (Stockholm)
 [![Test Fast, Fix More - Property based testing with Hypothesis by Alexander Hultnér](https://img.youtube.com/vi/MKf6KfdTems/0.jpg)](https://www.youtube.com/watch?v=MKf6KfdTems)  
 Did you ever miss that corner case bug? Maybe it was a negative integer, strange timezone conversion behaviour, off by one error or something entirely else. These subtle bugs are often hard to catch and are easily missed in test cases. You like me have probably ran into plenty of code utilising only happy path testing, only to later discover subtle bugs which are easily fixed once pointed out. This is where property based testing comes into the picture. 
@@ -47,23 +65,6 @@ and start experimenting with it on critical parts.
 **Is this the same thing as a fuzzer?**  
 Not quite but similar concepts, I like to think of property-based testing as structured fuzzing. 
 
-## ⠠⠵ Quick Reference
-```python
-# Minimal usage example
-@given(
-    st.integers(), 
-    st.integers()
-)
-def test_ints_are_commutative(x, y):
-    assert x + y == y + x
-	
-# Define special edge cases with @example, 
-# especially useful for regression testing
-@given(st.integers(), st.integers())
-@example(-1, 1)
-def test_add(a, b):
-    assert add(a, b) == a + b
-```
 
 ## ⠠⠵ Links
 - [Hypothesis](https://hypothesis.works), [docs](https://hypothesis.readthedocs.io/en/latest/)
