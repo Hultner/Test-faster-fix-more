@@ -29,6 +29,26 @@ def test_add(a, b):
     assert add(a, b) == a + b
 ```
 
+## ⠠⠵ Test & Code Podcast Interview, March 27th, 2020
+[**Property Based Testing in Python with Hypothesis - Alexander Hultnér**_, Episode 107_](https://testandcode.com/107)  
+Hypothesis is the Python tool used for property based testing.
+Hypothesis claims to combine _"human understanding of your problem domain with machine intelligence to improve the quality of your testing process while spending less time writing tests."_
+
+In this episode Alexander Hultnér introduces us to property based testing in Python with Hypothesis.
+
+Some topics covered:
+
+- What is property based testing
+- Thinking differently for property based testing
+- Using hypothesis / property based testing in conjunction with normal testing
+- Failures saved and re-run
+- What parts of development/testing is best suited for hypothesis / property based testing
+- Comparing function implementations
+- Testing against REST APIs that use Open API / Swagger with schemathesis
+- Changing the number of tests in different test environments
+- System, integration, end to end, and unit tests
+
+
 ## ⠠⠵ PyCon Sweden, Oct 31 - Nov 1, 2019 (Stockholm)
 [![Test Fast, Fix More - Property based testing with Hypothesis by Alexander Hultnér](https://img.youtube.com/vi/MKf6KfdTems/0.jpg)](https://www.youtube.com/watch?v=MKf6KfdTems)  
 Did you ever miss that corner case bug? Maybe it was a negative integer, strange timezone conversion behaviour, off by one error or something entirely else. These subtle bugs are often hard to catch and are easily missed in test cases. You like me have probably ran into plenty of code utilising only happy path testing, only to later discover subtle bugs which are easily fixed once pointed out. This is where property based testing comes into the picture. 
