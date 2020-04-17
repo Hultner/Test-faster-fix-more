@@ -53,7 +53,7 @@ Some topics covered:
 [![Test Fast, Fix More - Property based testing with Hypothesis by Alexander Hultnér](https://i.ytimg.com/vi/MKf6KfdTems/maxresdefault.jpg)](https://www.youtube.com/watch?v=MKf6KfdTems)  
 Did you ever miss that corner case bug? Maybe it was a negative integer, strange timezone conversion behaviour, off by one error or something entirely else. These subtle bugs are often hard to catch and are easily missed in test cases. You like me have probably ran into plenty of code utilising only happy path testing, only to later discover subtle bugs which are easily fixed once pointed out. This is where property based testing comes into the picture. 
 
-In this talk I will focus on a wonderful Python library called Hypothesis but the concepts apply to other languages as well. Hypethesis is based on the same concept as the famous QuickCheck library for Haskell, which in turn have been ported a large number of languages. Hypothesis uses a wide range of input to find edge cases that you could otherwise easily miss, once it finds these cases it narrows down the input to the minimal breaking example to provide failures which are easier to understand. 
+In this talk I will focus on a wonderful Python library called Hypothesis but the concepts apply to other languages as well. Hypothesis is based on the same concept as the famous QuickCheck library for Haskell, which in turn have been ported a large number of languages. Hypothesis uses a wide range of input to find edge cases that you could otherwise easily miss, once it finds these cases it narrows down the input to the minimal breaking example to provide failures which are easier to understand. 
 
 Audience level: Intermediate 
 
@@ -67,7 +67,7 @@ Speaker: Alexander Hultnér
 [![Speaker at Python Pizza 2020, Alexander Hultnér talks about pydantic](https://i.ytimg.com/vi/qKHB0Xr-Yjg/maxresdefault.jpg)](https://www.youtube.com/watch?v=qKHB0Xr-Yjg)  
 Did you ever miss that corner case bug? Maybe it was a negative integer, strange timezone conversion behaviour, off by one error or something entirely else. These subtle bugs are often hard to catch and are easily missed in test cases. You like me have probably ran into plenty of code utilising only happy path testing, only to later discover subtle bugs which are easily fixed once pointed out. This is where property based testing comes into the picture. 
 
-In this talk I will focus on a wonderful Python library called Hypothesis but the concepts apply to other languages as well. Hypethesis is based on the same concept as the famous QuickCheck library for Haskell, which in turn have been ported a large number of languages. Hypothesis uses a wide range of input to find edge cases that you could otherwise easily miss, once it finds these cases it narrows down the input to the minimal breaking example to provide failures which are easier to understand.
+In this talk I will focus on a wonderful Python library called Hypothesis but the concepts apply to other languages as well. Hypoethesis is based on the same concept as the famous QuickCheck library for Haskell, which in turn have been ported a large number of languages. Hypothesis uses a wide range of input to find edge cases that you could otherwise easily miss, once it finds these cases it narrows down the input to the minimal breaking example to provide failures which are easier to understand.
 
 - [Video](https://www.youtube.com/watch?v=qKHB0Xr-Yjg)
 - [Slides](https://slides.com/hultner/foss-north-2019/fullscreen#/)
